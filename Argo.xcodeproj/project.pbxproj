@@ -60,10 +60,6 @@
 		809755081BADF3ED00C409E6 /* user_with_bad_type.json in Resources */ = {isa = PBXBuildFile; fileRef = EA47BB551AFC5DAC002D2CCD /* user_with_bad_type.json */; };
 		809755091BADF3ED00C409E6 /* user_without_key.json in Resources */ = {isa = PBXBuildFile; fileRef = EA47BB581AFC5E65002D2CCD /* user_without_key.json */; };
 		8097550A1BADF3F200C409E6 /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = EABDF68E1A9CD4EA00B6CC83 /* types.plist */; };
-		A14FF6D51D3330BE00FDAE55 /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FF6D41D3330BE00FDAE55 /* Semigroup.swift */; };
-		A14FF6D61D33312C00FDAE55 /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FF6D41D3330BE00FDAE55 /* Semigroup.swift */; };
-		A14FF6D71D33312C00FDAE55 /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FF6D41D3330BE00FDAE55 /* Semigroup.swift */; };
-		A14FF6D81D33312C00FDAE55 /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FF6D41D3330BE00FDAE55 /* Semigroup.swift */; };
 		A18467601D33262400CAA73E /* user_with_bad_type_and_missing_key.json in Resources */ = {isa = PBXBuildFile; fileRef = A184675F1D33262400CAA73E /* user_with_bad_type_and_missing_key.json */; };
 		A18467611D33262400CAA73E /* user_with_bad_type_and_missing_key.json in Resources */ = {isa = PBXBuildFile; fileRef = A184675F1D33262400CAA73E /* user_with_bad_type_and_missing_key.json */; };
 		A18467621D33262400CAA73E /* user_with_bad_type_and_missing_key.json in Resources */ = {isa = PBXBuildFile; fileRef = A184675F1D33262400CAA73E /* user_with_bad_type_and_missing_key.json */; };
@@ -285,7 +281,6 @@
 		809586041BB84CE7004F9319 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curry.framework; path = "Carthage/Checkouts/Curry/build/Debug-appletvos/Curry.framework"; sourceTree = "<group>"; };
 		809754C11BADF34100C409E6 /* Argo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		809754CA1BADF34200C409E6 /* Argo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Argo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A14FF6D41D3330BE00FDAE55 /* Semigroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Semigroup.swift; sourceTree = "<group>"; };
 		A184675F1D33262400CAA73E /* user_with_bad_type_and_missing_key.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user_with_bad_type_and_missing_key.json; sourceTree = "<group>"; };
 		BF92789C1B9365900038A7E1 /* RawRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RawRepresentable.swift; path = Argo/Extensions/RawRepresentable.swift; sourceTree = SOURCE_ROOT; };
 		D0592EB61B77DD7800EFEF39 /* Argo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -423,7 +418,6 @@
 				EA04D5981BBF1FA4001DE23B /* Applicative.swift */,
 				EA04D59C1BBF1FB9001DE23B /* Alternative.swift */,
 				EA04D5A01BBF2021001DE23B /* FailureCoalescing.swift */,
-				A14FF6D41D3330BE00FDAE55 /* Semigroup.swift */,
 			);
 			path = Decoded;
 			sourceTree = "<group>";
@@ -1000,7 +994,6 @@
 				809754E31BADF36D00C409E6 /* flatReduce.swift in Sources */,
 				809754DB1BADF36D00C409E6 /* StandardTypes.swift in Sources */,
 				EA9159F91BDE74EB00D85292 /* Functor.swift in Sources */,
-				A14FF6D81D33312C00FDAE55 /* Semigroup.swift in Sources */,
 				809754DA1BADF36D00C409E6 /* Decodable.swift in Sources */,
 				809754DE1BADF36D00C409E6 /* Decode.swift in Sources */,
 				809754D81BADF36D00C409E6 /* Decoded.swift in Sources */,
@@ -1050,7 +1043,6 @@
 				EA04D59B1BBF1FA4001DE23B /* Applicative.swift in Sources */,
 				D0592EC11B77DD8E00EFEF39 /* StandardTypes.swift in Sources */,
 				EA04D59F1BBF1FB9001DE23B /* Alternative.swift in Sources */,
-				A14FF6D71D33312C00FDAE55 /* Semigroup.swift in Sources */,
 				D0592EC01B77DD8E00EFEF39 /* Decodable.swift in Sources */,
 				D0592EC51B77DD9A00EFEF39 /* decode.swift in Sources */,
 				F8C2561B1C3C855C00B70968 /* NSNumber.swift in Sources */,
@@ -1078,7 +1070,6 @@
 				F87EB6AA1ABC5F1300E3B0AB /* Decoded.swift in Sources */,
 				EA04D5991BBF1FA4001DE23B /* Applicative.swift in Sources */,
 				BF92789D1B9365900038A7E1 /* RawRepresentable.swift in Sources */,
-				A14FF6D51D3330BE00FDAE55 /* Semigroup.swift in Sources */,
 				EA04D59D1BBF1FB9001DE23B /* Alternative.swift in Sources */,
 				F87EB6AE1ABC5F1300E3B0AB /* Decodable.swift in Sources */,
 				F87EB6A41ABC5F1300E3B0AB /* decode.swift in Sources */,
@@ -1131,7 +1122,6 @@
 				F87EB6AB1ABC5F1300E3B0AB /* Decoded.swift in Sources */,
 				EA04D59A1BBF1FA4001DE23B /* Applicative.swift in Sources */,
 				F87EB6AF1ABC5F1300E3B0AB /* Decodable.swift in Sources */,
-				A14FF6D61D33312C00FDAE55 /* Semigroup.swift in Sources */,
 				EA04D59E1BBF1FB9001DE23B /* Alternative.swift in Sources */,
 				F87EB6A51ABC5F1300E3B0AB /* decode.swift in Sources */,
 				F87EB6AD1ABC5F1300E3B0AB /* JSON.swift in Sources */,

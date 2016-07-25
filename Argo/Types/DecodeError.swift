@@ -57,13 +57,3 @@ public func == (lhs: DecodeError, rhs: DecodeError) -> Bool {
     return false
   }
 }
-
-extension DecodeError: Semigroup { }
-
-public func <> (lhs: DecodeError, rhs: DecodeError) -> DecodeError {
-  switch (lhs, rhs) {
-  case let (.multiple(es), e): return .multiple(es + [e])
-  case let (e, .multiple(es)): return .multiple(es + [e])
-  case let (le, re): return .multiple([le, re])
-  }
-}
